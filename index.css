@@ -88,9 +88,10 @@ nav.sticky {
 }
 
 .logo img {
-    max-height: 50px; /* Adjust the height to fit within the nav bar */
-    width: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensures the logo fits nicely without distortion */
+    max-height: 120px; /* Increase the height as per your preference */
+    width: auto; /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensures the logo scales properly */
+    margin: 0 auto; /* Center the image within the logo container if necessary */
 }
 
 /* #logoImg {
