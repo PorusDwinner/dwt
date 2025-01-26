@@ -61,9 +61,10 @@ h2 {
 
 /* Header and Nav */
 header {
-    background: linear-gradient(to right, #56c240, #34db95);
+    background: linear-gradient(to right, #2f831e, #34db95);
     color: white;
     padding: 20px 0 100px;
+    margin-top: 6rem;
 }
 
 nav {
@@ -93,15 +94,11 @@ nav.sticky {
 }
 
 .logo img {
-    max-height: 100px;
-    /* Increase the height as per your preference */
+    max-height: 120px;
     width: auto;
-    /* Maintain the aspect ratio */
     object-fit: contain;
-    /* Ensures the logo scales properly */
     margin: 0 auto;
-    /* Center the image within the logo container if necessary */
-    margin-top: -1.8rem;
+    margin-top: 0.5rem;
 }
 
 /* #logoImg {
@@ -186,7 +183,7 @@ nav a:hover {
 
 .service-img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -301,6 +298,12 @@ nav a:hover {
         /* Ensures the logo scales properly */
         margin: 0 auto;
         /* Center the image within the logo container if necessary */
+    }
+    header {
+        background: linear-gradient(to right, #2f831e, #34db95);
+        color: white;
+        padding: 20px 0 100px;
+        margin-top: 1.5rem;
     }
 }
 
