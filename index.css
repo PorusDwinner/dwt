@@ -61,7 +61,8 @@ h2 {
 
 /* Header and Nav */
 header {
-    background: linear-gradient(to right, #2f831e, #34db95);
+    /* background: linear-gradient(to right, #2f831e, #34db95); */
+    background: #6E854A;
     color: white;
     padding: 20px 0 100px;
     margin-top: 6rem;
@@ -300,11 +301,13 @@ nav a:hover {
         /* Center the image within the logo container if necessary */
     }
     header {
-        background: linear-gradient(to right, #6E854A, #2ab87c);
+        /* background: linear-gradient(to right, #6E854A, #6E854A); */
+        background-color: #6E854A !important;
         color: white;
         padding: 20px 0 100px;
         margin-top: 1.5rem;
     }
+    
 }
 
 /* Footer */
