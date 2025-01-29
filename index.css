@@ -60,12 +60,12 @@ h2 {
 .cta-btn {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #088511;
+    background-color: #6E854A;
     color: white;
     text-decoration: none;
     border-radius: 40px;
     transition: background-color 0.3s ease;
-    border: 1px solid yellow;
+    border: 1px solid white;
 }
 
 .cta-btn:hover {
