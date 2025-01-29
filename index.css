@@ -11,6 +11,20 @@ html {
     scroll-behavior: smooth;
 }
 
+.whatsapp-btn {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    text-decoration: none;
+    color: white; 
+}
+
+.whatsapp-btn img {
+    height: 1.4rem; 
+    width: 1.4rem;
+    vertical-align: middle; 
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
